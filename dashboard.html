@@ -12,51 +12,21 @@
 	<title>Dashboard</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-  	<button class="openbtn" style="font-size: 30px;" onclick="openNav()">☰</button>  
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-   
-    </ul>
-    <form class="search1 form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" class="fa fa-search"type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
-    </form>
-    <a href="#sidebar"><i class="fa fa-user-secret"style= "color:#000000"></i></a>
-  </div>
-</nav>
+<!--main content-->
+<div class="conta"> 
 
-
-<div class="conta">   
-	<div id="mySidepanel" class="sidepanel">
+  <div class="row">
+    <div class="col-lg-2 col-sm-3">
+     <div id="mySidepanel" class="sidepanel">
 		
 		<div id="sidebar">
 			<div class="sidebar__title">
 				<div class="sidebar__img">
 				<i class='fab fa-apple' style='font-size:50px'></i>
-					<h1 style="color: #a5aaad">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMy Profile</h1>
+					<h1 style="color: #d3d3d3">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMy Profile</h1>
 				</div>
-              <a href="javascript:void(0)"  onclick="closeNav()"><span class="closebtn"><i class="fa fa-times"></i></span></a>
+             
 			</div>
 			<div class="sidebar__menu">
 				<div class="sidebar__link active_menu_link">
@@ -78,7 +48,7 @@
 				
 				<div class="sidebar__link">
 					<i class="fa fa-archive"></i>
-					<a href="#">Billing</a>
+					<a href="Billing.html">Billing</a>
 				</div>
 
 				<div class="sidebar__link">
@@ -99,13 +69,13 @@
 					
 				<div class="sidebar__link">
 					<i class="fa fa-wrench"></i>
-					<a href="#">Setting</a>
+					<a href="Setting.html">Setting</a>
 				</div>
 
 			
 				<div class="sidebar__link">
 					<i class="fa fa-files-o"></i>
-					<a href="#">Help!</a>
+					<a href="help.html">Help!</a>
 				</div>
 
 				<h2>PAYMENT</h2>
@@ -126,21 +96,114 @@
 			</div>
 		</div>
 	</div>
+    </div>
+    <div class="col-lg-10 col-sm-9 navibar1">
+     <div class="navibar2">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">A11Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</nav>
+	</div>
+	<div class="navicontent">
+		<h1>Main Content  lies here!!!</h1>
+	</div>
+    </div>
+   
+  </div>
+ 
+	
+	
 
    </div>
 
-
 </div>
 
-<script>
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
-}
-</script>
+<!--footer-->
+  
+  <div class="page-wrapper">
+  	
+  </div>
+   <div class="footer">
+  	<div class="row footer-content">
+  		<div class="col-lg-3 footer-section about">
+  			<h3 class="logo-text"><span>A11</span>Project</h3>
+  			<h6>About Us</h6>
+  			<h6>Careers</h6>
+  			<h6>Gift</h6>
+  			<h6>Products</h6>
+  			
+  			  		</div>
+
+  		
+  		<div class="col-lg-3 footer-section links">
+  			<h6>Quick Links</h6>
+  			<br>
+  			<ul >
+  				<a href="#">
+  					<li class="li1">Products</li>
+  				</a>
+  					<a href="#">
+  					<li class="li1">Products</li>
+  				</a>
+  					<a href="#">
+  					<li class="li1">Products</li>
+  				</a>
+  					<a href="#">
+  					<li class="li1">Products</li>
+  				</a>
+  					<a href="#">
+  					<li class="li1">Products</li>
+  				</a>
+  			</ul>
+  		</div>
+  		  		<div class="col-lg-3 footer-section connect">
+  		  			<h6>Connect with Us</h6>
+  				<div class="contact">
+  				<span><i class="fas fa-phone li1"></i> &nbsp 123-456-7890</span>
+  				<span><i class="fas fa-envelope li1"></i> &nbsp a11project@gmail.com</span>
+  			</div>
+  			<div class="socials">
+  				<a href="#"><i class="fab fa-youtube so1"></i></a>
+  				<a href="#"><i class="fab fa-instagram so1"></i></a>
+  				<a href="#"><i class="fab fa-facebook so1"></i></a>
+  				<a href="#"><i class="fab fa-twitter so1"></i></a>
+  			</div>
+  		</div>	
+        <div class="col-lg-3 footer-section contact-form">
+        	<h6>Contact Us</h6>
+        	<br>
+        	<input type="email" name="email" class="text-input contact-input"placeholder="your email address......">
+        	<textarea roe="4"name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+        	<button type="submit" class="btn btn-big contact-btn">
+        		<i class="fas fa-envelope"></i>
+        		 Send
+        	</button>
+        </div>
+  	</div>
+  	<div class="nav-footer-line"></div>
+  	<div class="footer-bottom">
+  		&copy; a11Project.com
+  	</div>
+  </div>
 
 <script type="https://cdn.jsdelivr.net/apexcharts"></script>
 <script src="dashboard.js">
